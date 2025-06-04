@@ -1,0 +1,2 @@
+# RushWash
+graduation comprehensive project
