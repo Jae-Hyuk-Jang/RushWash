@@ -1,4 +1,4 @@
-````md
+````
 # 🧺 RushWash: AI-Based Laundry Assistant  
 > YOLOv8 + CNN + OCR + LLM 기반 얼룩 & 세탁 기호 분석 자동화 시스템  
 > Graduation Comprehensive Project (2025)
@@ -131,5 +131,4 @@ RushWash/
 
 이 프로젝트는 [MIT License](./LICENSE)에 따라 배포됩니다.
 
-`````
 `````
