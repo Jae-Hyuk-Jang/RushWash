@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 ---
 
 ## 🏗️ 시스템 아키텍처
-![arcithecture1](https://github.com/user-attachments/assets/afa138f9-65a3-42a4-ad7f-4d87f37028b0)
+![4](https://github.com/user-attachments/assets/69a09ba6-74c6-4ee6-a1dc-175f8f2e13d3)
 
 ```plaintext
 [Input Image]
@@ -57,6 +57,7 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 
 ## 🗂️  시스템 기능 개요
 
+![arcithecture1](https://github.com/user-attachments/assets/afa138f9-65a3-42a4-ad7f-4d87f37028b0)
 ![arcithecture2](https://github.com/user-attachments/assets/ebb3164e-f1dd-4af9-a8f8-60d0454dd3da)
 
 ---
