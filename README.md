@@ -59,7 +59,10 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 
 ## 🗂️  시스템 기능 개요
 
+### 1) 시스템 흐름
 ![arcithecture1](https://github.com/user-attachments/assets/afa138f9-65a3-42a4-ad7f-4d87f37028b0)
+
+### 2) 서비스 종류
 ![arcithecture2](https://github.com/user-attachments/assets/ebb3164e-f1dd-4af9-a8f8-60d0454dd3da)
 
 ---
