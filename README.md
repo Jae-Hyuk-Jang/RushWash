@@ -28,9 +28,22 @@
 
 ---
 
+## 🎬 시연 영상
+
+<video src=".github/assets/RushWash_시연영상.mp4"
+       controls     <!-- 재생·일시정지 버튼 -->
+       loop         <!-- 반복 재생 (선택) -->
+       muted        <!-- 기본 음소거 (선택) -->
+       playsinline  <!-- iOS 사파리 전체화면 방지 -->
+       width="100%">
+  브라우저가 video 태그를 지원하지 않습니다.
+</video>
+
+---
+
 ## 🏗️ 시스템 아키텍처
 
-![모델 아키텍쳐1](assets/arcithecture1.png)
+![모델 아키텍쳐1](.github/assets/arcithecture1.png)
 ```plaintext
 [Input Image]
      │
@@ -50,23 +63,23 @@
 
 ## 🗂️  시스템 기능 개요
 
-![모델 아키텍쳐2](assets/arcithecture2.png)
+![모델 아키텍쳐2](.github/assets/arcithecture2.png)
 
 ---
 
 ## 📱 애플리케이션 흐름
 
 ### 1) 얼룩 분석 서비스 
-![얼룩 분석 서비스](assets/stain_test.png)
+![얼룩 분석 서비스](.github/assets/stain_test.png)
 
 ### 2) 라벨 분석 서비스 
-![라벨 분석 서비스](assets/label_test.png)
+![라벨 분석 서비스](.github/assets/label_test.png)
 
 ### 3) 얼룩 + 라벨 통합 분석 서비스
-![얼룩 + 라벨 통합 분석 서비스](assets/label_stain_test.png)
+![얼룩 + 라벨 통합 분석 서비스](.github/assets/label_stain_test.png)
 
 ### 4) 섬유 유연제 추천, 인근 세탁소 검색 서비스
-![섬유 유연제 추천, 인근 세탁소 검색 서비스](assets/extra_test.png)
+![섬유 유연제 추천, 인근 세탁소 검색 서비스](.github/assets/extra_test.png)
 
 ---
 
@@ -93,7 +106,7 @@
 
 ### 1) Symbol Detection - YOLOv8 (Object Detection)
 
-![Stain vs Symbol 모델 그래프](assets/symbol_model_compare.png)
+![Stain vs Symbol 모델 그래프](.github/assets/symbol_model_compare.png)
 
 | Model ID | Input Res | Best Conf | Best IoU | mAP@50 | mAP@50-95 | Precision | Recall | F1-score | Latency (ms) | Param Opt |
 |----------|:--------:|:--------:|:--------:|-------:|----------:|----------:|--------:|---------:|-------------:|:---------:|
@@ -106,7 +119,7 @@
 
 ### 2) Stain Detection - YOLOv8 (Object Detection)
 
-![Stain vs Symbol 모델 그래프](assets/stain_model_compare.png)
+![Stain vs Symbol 모델 그래프](.github/assets/stain_model_compare.png)
 
 | Model ID | Precision | Recall | F1-score | Latency (ms) |
 |----------|----------:|-------:|---------:|-------------:|
