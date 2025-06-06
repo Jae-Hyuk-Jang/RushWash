@@ -29,6 +29,8 @@
 ---
 
 ## 🏗️ 시스템 아키텍처
+
+![모델 아키텍쳐1](assets/arcithecture1.png)
 ```plaintext
 [Input Image]
      │
@@ -44,6 +46,11 @@
      ▼
 [Frontend (React)] 사용자에게 결과 시각화
 ````
+---
+
+## 🏗️ 시스템 기능 
+
+![모델 아키텍쳐2](assets/arcithecture2.png)
 
 ---
 
@@ -70,7 +77,7 @@
 
 ### 1) Symbol Detection - YOLOv8 (Object Detection)
 
-![Stain vs Symbol 모델 그래프](assets/stain_model_compare.png)
+![Stain vs Symbol 모델 그래프](assets/symbol_model_compare.png)
 
 | Model ID | Input Res | Best Conf | Best IoU | mAP@50 | mAP@50-95 | Precision | Recall | F1-score | Latency (ms) | Param Opt |
 |----------|:--------:|:--------:|:--------:|-------:|----------:|----------:|--------:|---------:|-------------:|:---------:|
@@ -82,6 +89,8 @@
 ---
 
 ### 2) Stain Detection - YOLOv8 (Object Detection)
+
+![Stain vs Symbol 모델 그래프](assets/stain_model_compare.png)
 
 | Model ID | Precision | Recall | F1-score | Latency (ms) |
 |----------|----------:|-------:|---------:|-------------:|
