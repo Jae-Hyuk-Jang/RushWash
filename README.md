@@ -30,7 +30,7 @@
 
 ## 🎬 시연 영상
 
-![RushWash_preview](.github/assets/RushWash_demo.mp4)
+![RushWash Preview](.github/assets/RushWash_demo.mp4?raw=true)
 
 ---
 
