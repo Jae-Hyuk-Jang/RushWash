@@ -113,7 +113,7 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 
 ### 2) Stain Detection - YOLOv8 (Object Detection)
 
-![8](https://github.com/user-attachments/assets/e439631e-7026-4d8d-86e9-5be7f195684f)
+![3](https://github.com/user-attachments/assets/dfdfb95c-fa4b-4337-812a-4254b362dc76)
 
 
 | Model ID | Precision | Recall | F1-score | Latency (ms) |
@@ -156,6 +156,7 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 | **툴** | LabelImg (오픈소스 GUI) |
 | **작업 환경** | 로컬 – 2인 검수 & 버전 관리 |
 
+![8](https://github.com/user-attachments/assets/e439631e-7026-4d8d-86e9-5be7f195684f)
 ---
 
 ### 🌟 하이라이트
