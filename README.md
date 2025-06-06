@@ -38,6 +38,7 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 ## 🏗️ 시스템 아키텍처
 ![4](https://github.com/user-attachments/assets/69a09ba6-74c6-4ee6-a1dc-175f8f2e13d3)
 
+<!--
 ```plaintext
 [Input Image]
      │
@@ -53,6 +54,7 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
      ▼
 [Frontend (React)] 사용자에게 결과 시각화
 ````
+-->
 ---
 
 ## 🗂️  시스템 기능 개요
