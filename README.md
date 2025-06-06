@@ -30,14 +30,7 @@
 
 ## 🎬 시연 영상
 
-<video src=".github/assets/RushWash_demo.mp4"
-       width="640"      <!-- 너비 원하는 대로 -->
-       controls         <!-- 재생/일시정지 버튼 -->
-       muted            <!-- 자동재생하려면 muted 필요 -->
-       playsinline>     <!-- iOS 전체화면 방지 -->
-  브라우저가 video 태그를 지원하지 않습니다.
-</video>
-
+![RushWash Demo](![RushWash Demo](https://raw.githubusercontent.com/<USER>/<REPO>/<BRANCH>/.github/assets/RushWash_demo.mp4))
 ---
 
 ## 🏗️ 시스템 아키텍처
