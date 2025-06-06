@@ -1,5 +1,5 @@
 # 🧺 RushWash: AI-Based Laundry Assistant  
-> YOLOv8 + CNN + OCR + LLM 기반 얼룩 & 세탁 기호 분석 자동화 시스템  
+> YOLOv8 + LLM 기반 얼룩 & 세탁 기호 분석 자동화 시스템  
 > Graduation Comprehensive Project (2025)
 
 ---
@@ -70,6 +70,8 @@
 
 ### 1) Symbol Detection - YOLOv8 (Object Detection)
 
+![Stain vs Symbol 모델 그래프](assets/stain_model_compare.png)
+
 | Model ID | Input Res | Best Conf | Best IoU | mAP@50 | mAP@50-95 | Precision | Recall | F1-score | Latency (ms) | Param Opt |
 |----------|:--------:|:--------:|:--------:|-------:|----------:|----------:|--------:|---------:|-------------:|:---------:|
 | laundry_data_2_yolov8m_2048_train | 2048 | 0.010 | 0.30 | **71.13** | 53.45 | 71.86 | 62.38 | 66.74 | 44.5 | 기본 |
@@ -127,8 +129,7 @@
 
 * **stain_yolov8s_1600_a1** 모델이 F1-score 88.09 %로 최고 성능.  
 * 파라미터 최적화(Conf/IoU Sweep) + 1600 입력으로 mAP +1.3 %p, Latency -8 ms.  
-* CNN classifier fallback 적용 시 소형 모델에서도 Top-1 Acc +6 %p.  
-* 모든 실험 로그 & Ray Tune 결과는 [`/runs/`](./runs) 폴더 참조.
+* **pre_final_yolov8m_2048** 모델이 mAP@50-95 72.46 %로 최고 성능.  
 
 
 
@@ -194,7 +195,7 @@ RushWash/
 | Avatar | 이름&nbsp;/&nbsp;영문 | 담당 영역 | 핵심 기술스택 | GitHub |
 |:---:|:---|:---|:---|:---:|
 | <img src="https://github.com/Jae-Hyuk-Jang.png" width="100"/> | **장재혁**<br/>Jae-Hyuk Jang | 시스템 설계·구현<br/>(AI&nbsp;&middot;&nbsp;MLOps) | YOLOv8&nbsp;&#124; PyTorch&nbsp;&#124; Ray&nbsp;&#124; MLflow | [Jae-Hyuk-Jang](https://github.com/Jae-Hyuk-Jang) |
-| <img src="https://github.com/tyoon11.png" width="100"/> | **김태윤**<br/>Tae-Yoon Kim | 시스템 설계·구현<br/>(AI&nbsp;&middot;&nbsp;MLOps) | LLMM&nbsp;&#124; PyTorch&nbsp;&#124; MLflow | [tyoon11](https://github.com/tyoon11) |
+| <img src="https://github.com/tyoon11.png" width="100"/> | **김태윤**<br/>Tae-Yoon Kim | 시스템 설계·구현<br/>(AI&nbsp;&middot;&nbsp;MLOps) | LLM&nbsp;&#124; PyTorch&nbsp;&#124; MLflow | [tyoon11](https://github.com/tyoon11) |
 | <img src="https://github.com/chaechae128.png" width="100"/> | **김채연**<br/>Chae-Yeon Kim | 백엔드&nbsp;개발&nbsp;(BE) | Spring&nbsp;Boot&nbsp;&#124; JPA&nbsp;&#124; MariaDB&nbsp; | [chaechae128](https://github.com/chaechae128) |
 | <img src="https://github.com/soo0711.png" width="100"/> | **전수현**<br/>Su-Hyun Jeon | 백엔드&nbsp;개발&nbsp;(BE) | Spring&nbsp;Boot&nbsp;&#124; JPA&nbsp;&#124; MariaDB&nbsp;  | [soo0711](https://github.com/soo0711) |
 | <img src="https://github.com/ghbtkk.png" width="100"/> | **김지현**<br/>Ji-Hyun Kim | 프론트엔드&nbsp;개발&nbsp;(FE) | React&nbsp;&#124;  TailwindCSS | [ghbtkk](https://github.com/ghbtkk) |
