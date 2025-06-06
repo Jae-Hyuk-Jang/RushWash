@@ -68,7 +68,7 @@
 [![데모 영상](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
 -->
 
-### 1) Stain Detection - YOLOv8 (Object Detection)
+### 1) Symbol Detection - YOLOv8 (Object Detection)
 
 | Model ID | Input Res | Best Conf | Best IoU | mAP@50 | mAP@50-95 | Precision | Recall | F1-score | Latency (ms) | Param Opt |
 |----------|:--------:|:--------:|:--------:|-------:|----------:|----------:|--------:|---------:|-------------:|:---------:|
@@ -77,8 +77,9 @@
 | yolov8m_1600_optimized_pre_final  | 1600 | 0.031 | 0.30 | **71.91** | 53.42 | 65.62 | 70.76 | 68.09 | 30.9 | ✓ |
 | yolov8m_1600_optimized_pre_final2 | 1600 | 0.010 | 0.30 | **70.71** | 50.56 | 76.25 | 59.23 | 66.58 | **28.7** | ✓ |
 
-<details>
-<summary>▶ Stain YOLO S series (추가 실험 5종)</summary>
+---
+
+### 2) Stain Detection - YOLOv8 (Object Detection)
 
 | Model ID | Precision | Recall | F1-score | Latency (ms) |
 |----------|----------:|-------:|---------:|-------------:|
@@ -88,25 +89,13 @@
 | yolov8m_2048                       | 73.71 | 69.61 | 70.31 | 58.1 |
 | yolov8s_2048                       | 76.65 | 73.00 | 73.32 | 57.6 |
 
-</details>
-
----
-
-### 2) Classification (CNN) + Fallback
-
-| 모델 | Top-1 Acc | Top-3 Acc |
-|------|----------:|----------:|
-| YOLOv8s (imgsz = 1600) | **69.16 %** | 79.44 % |
-| YOLOv8m (imgsz = 2048) | — | — |
-
-> *CNN 성능은 YOLO Crop → ConvNeXt-Tiny 분류 파이프라인 기준. 정확도 70 % 이상 달성 시 YOLO 단독 대비 +3 ~ 4 %p 상향.*
 
 ---
 
 ### 3) LLM-based Laundry Guide
 
 * 자체 LLM(2.1 B) + Rule Prompt 조합으로 **자연스러운 세탁 방법 설명**을 생성.  
-* 정량 평가는 어려우나, 인턴 UX 테스트(20명)에서 “설명이 이해하기 쉽다” 응답 95 %.*
+* 정량 평가는 어려우나, UX 테스트(5명)에서 “설명이 이해하기 쉽다” 응답 95 %.*
 
 ---
 
@@ -114,8 +103,8 @@
 
 | 모델군 | epochs | imgsz | mosaic | mixup | auto_augment | optimizer |
 |--------|:------:|:-----:|:------:|:-----:|:------------:|:---------:|
-| **stain**   | 5 | 1600 | 1.0 | 0.0 | `randaugment` | `auto` |
-| **symbol**  | 5 | 2048 | ✓ | 0.3 | — | `auto` |
+| **stain**   | 150 | 1600 | 1.0 | 0.0 | `randaugment` | `auto` |
+| **symbol**  | 150 | 2048 | ✓ | 0.3 | — | `auto` |
 
 *모자이크 비활성 실험에서 검출 정확도가 2 ~ 4 %p 하락.*
 
@@ -141,16 +130,17 @@
 * CNN classifier fallback 적용 시 소형 모델에서도 Top-1 Acc +6 %p.  
 * 모든 실험 로그 & Ray Tune 결과는 [`/runs/`](./runs) 폴더 참조.
 
----
+
 
 <!-- 필요하면 여기서부터 추가 스크린샷 / GIF 삽입
 <img src="./assets/tsne_stain.png" width="450"/>
 -->
 
+<!--
 > ❗ 스프린트마다 새로운 모델을 자동으로 벤치마킹하려면  
 > `scripts/benchmark.py --sweep conf --sweep iou` 로 반복 실행 후  
 > `results/latest_summary.md` 파일을 README에 링크해 주세요.
-
+-->
 
 ---
 
@@ -199,11 +189,15 @@ RushWash/
 
 ---
 
-## 👤 개발자
+## 👤 Team Members
 
-| 이름                      | 역할                            |
-| ----------------------- | ----------------------------- |
-| **장재혁 (Jang Jae-hyuk)** | 시스템 설계·구현 (AI, MLOps) |
+| Avatar | 이름 | 역할 | GitHub |
+| :---: | --- | --- | :---: |
+| <img src="https://github.com/Jae-Hyuk-Jang.png" width="80"/> | **장재혁** | 시스템 설계·구현<br/>(AI · MLOps) | [Jae-Hyuk-Jang](https://github.com/Jae-Hyuk-Jang) |
+| <img src="https://github.com/tyoon11.png" width="80"/> | **김태윤** | 시스템 설계·구현<br/>(AI · MLOps) | [tyoon11](https://github.com/tyoon11) |
+| <img src="https://github.com/chaechae128.png" width="80"/> | **김채연** | 시스템 설계·구현<br/>(Back-End) | [chaechae128](https://github.com/chaechae128) |
+| <img src="https://github.com/soo0711.png" width="80"/> | **전수현** | 시스템 설계·구현<br/>(Back-End) | [soo0711](https://github.com/soo0711) |
+| <img src="https://github.com/ghbtkk.png" width="80"/> | **김지현** | 시스템 설계·구현<br/>(Front-End) | [ghbtkk](https://github.com/ghbtkk) |
 
 
 ---
