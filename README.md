@@ -30,7 +30,7 @@
 
 ## 🎬 시연 영상
 
-https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
+https://github.com/user-attachments/assets/15a1742c-a479-4c17-bf88-b730b4a9d6f4
 
 
 ---
