@@ -33,14 +33,11 @@
 https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 
 
-
-![RushWash Demo](https://github.com/user-attachments/assets/a49b72e1-d629-4941-91d1-bcacc95159ca/RushWash_demo.mp4)
-
 ---
 
 ## 🏗️ 시스템 아키텍처
+![arcithecture1](https://github.com/user-attachments/assets/afa138f9-65a3-42a4-ad7f-4d87f37028b0)
 
-![모델 아키텍쳐1](.github/assets/arcithecture1.png)
 ```plaintext
 [Input Image]
      │
@@ -60,23 +57,23 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 
 ## 🗂️  시스템 기능 개요
 
-![모델 아키텍쳐2](.github/assets/arcithecture2.png)
+![arcithecture2](https://github.com/user-attachments/assets/ebb3164e-f1dd-4af9-a8f8-60d0454dd3da)
 
 ---
 
 ## 📱 애플리케이션 흐름
 
 ### 1) 얼룩 분석 서비스 
-![얼룩 분석 서비스](.github/assets/stain_test.png)
+![stain_test](https://github.com/user-attachments/assets/a19e74d7-8280-4399-8480-49090d102d9f)
 
 ### 2) 라벨 분석 서비스 
-![라벨 분석 서비스](.github/assets/label_test.png)
+![label_test](https://github.com/user-attachments/assets/2c17aa53-6500-4fb5-b870-2e336a71c7aa)
 
 ### 3) 얼룩 + 라벨 통합 분석 서비스
-![얼룩 + 라벨 통합 분석 서비스](.github/assets/label_stain_test.png)
+![label_stain_test](https://github.com/user-attachments/assets/72b35b94-9f1c-4fe2-b543-b2b1f8c61d8d)
 
 ### 4) 섬유 유연제 추천, 인근 세탁소 검색 서비스
-![섬유 유연제 추천, 인근 세탁소 검색 서비스](.github/assets/extra_test.png)
+![extra_test](https://github.com/user-attachments/assets/fb9489e4-6bca-481b-a538-3dc394fbc855)
 
 ---
 
@@ -103,7 +100,7 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 
 ### 1) Symbol Detection - YOLOv8 (Object Detection)
 
-![Stain vs Symbol 모델 그래프](.github/assets/symbol_model_compare.png)
+![5](https://github.com/user-attachments/assets/b98947d1-18bf-46ff-b241-689d2198a6ee)
 
 | Model ID | Input Res | Best Conf | Best IoU | mAP@50 | mAP@50-95 | Precision | Recall | F1-score | Latency (ms) | Param Opt |
 |----------|:--------:|:--------:|:--------:|-------:|----------:|----------:|--------:|---------:|-------------:|:---------:|
@@ -116,7 +113,8 @@ https://github.com/user-attachments/assets/f86a7302-f3cd-412d-8eef-f0a1280a0f97
 
 ### 2) Stain Detection - YOLOv8 (Object Detection)
 
-![Stain vs Symbol 모델 그래프](.github/assets/stain_model_compare.png)
+![8](https://github.com/user-attachments/assets/e439631e-7026-4d8d-86e9-5be7f195684f)
+
 
 | Model ID | Precision | Recall | F1-score | Latency (ms) |
 |----------|----------:|-------:|---------:|-------------:|
