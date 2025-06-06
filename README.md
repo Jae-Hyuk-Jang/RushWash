@@ -30,7 +30,7 @@
 
 ## 🎬 시연 영상
 
-![RushWash Preview](.github/assets/RushWash_demo.mp4?raw=true)
+![RushWash Preview](https://raw.githubusercontent.com/Jae-Hyuk-Jang/RushWash/main/.github/assets/RushWash_demo.mp4)
 
 ---
 
