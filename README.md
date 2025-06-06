@@ -191,13 +191,13 @@ RushWash/
 
 ## 👤 Team Members
 
-| Avatar | 이름 | 역할 | GitHub |
-| :---: | --- | --- | :---: |
-| <img src="https://github.com/Jae-Hyuk-Jang.png" width="80"/> | **장재혁** | 시스템 설계·구현<br/>(AI · MLOps) | [Jae-Hyuk-Jang](https://github.com/Jae-Hyuk-Jang) |
-| <img src="https://github.com/tyoon11.png" width="80"/> | **김태윤** | 시스템 설계·구현<br/>(AI · MLOps) | [tyoon11](https://github.com/tyoon11) |
-| <img src="https://github.com/chaechae128.png" width="80"/> | **김채연** | 시스템 설계·구현<br/>(Back-End) | [chaechae128](https://github.com/chaechae128) |
-| <img src="https://github.com/soo0711.png" width="80"/> | **전수현** | 시스템 설계·구현<br/>(Back-End) | [soo0711](https://github.com/soo0711) |
-| <img src="https://github.com/ghbtkk.png" width="80"/> | **김지현** | 시스템 설계·구현<br/>(Front-End) | [ghbtkk](https://github.com/ghbtkk) |
+| Avatar | 이름&nbsp;/&nbsp;영문 | 담당 영역 | 핵심 기술스택 | GitHub |
+|:---:|:---|:---|:---|:---:|
+| <img src="https://github.com/Jae-Hyuk-Jang.png" width="100"/> | **장재혁**<br/>Jae-Hyuk Jang | 시스템 설계·구현<br/>(AI&nbsp;&middot;&nbsp;MLOps) | YOLOv8&nbsp;&#124; ConvNeXt&nbsp;&#124; Ray&nbsp;&#124; Docker&nbsp;&#124; Kubernetes | [Jae-Hyuk-Jang](https://github.com/Jae-Hyuk-Jang) |
+| <img src="https://github.com/tyoon11.png" width="100"/> | **김태윤**<br/>Tae-Yoon Kim | 시스템 설계·구현<br/>(AI&nbsp;&middot;&nbsp;MLOps) | LightGBM&nbsp;&#124; PyTorch&nbsp;&#124; FastAPI&nbsp;&#124; MLflow | [tyoon11](https://github.com/tyoon11) |
+| <img src="https://github.com/chaechae128.png" width="100"/> | **김채연**<br/>Chae-Yeon Kim | 백엔드&nbsp;개발&nbsp;(BE) | Spring&nbsp;Boot&nbsp;&#124; JPA&nbsp;&#124; MariaDB&nbsp;&#124; Redis | [chaechae128](https://github.com/chaechae128) |
+| <img src="https://github.com/soo0711.png" width="100"/> | **전수현**<br/>Su-Hyun Jeon | 백엔드&nbsp;개발&nbsp;(BE) | Node.js&nbsp;&#124; NestJS&nbsp;&#124; GraphQL&nbsp;&#124; AWS | [soo0711](https://github.com/soo0711) |
+| <img src="https://github.com/ghbtkk.png" width="100"/> | **김지현**<br/>Ji-Hyun Kim | 프론트엔드&nbsp;개발&nbsp;(FE) | React&nbsp;&#124; Vite&nbsp;&#124; Recoil&nbsp;&#124; TailwindCSS | [ghbtkk](https://github.com/ghbtkk) |
 
 
 ---
