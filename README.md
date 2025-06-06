@@ -30,14 +30,7 @@
 
 ## 🎬 시연 영상
 
-<video src=".github/assets/RushWash_시연영상.mp4"
-       controls     <!-- 재생·일시정지 버튼 -->
-       loop         <!-- 반복 재생 (선택) -->
-       muted        <!-- 기본 음소거 (선택) -->
-       playsinline  <!-- iOS 사파리 전체화면 방지 -->
-       width="100%">
-  브라우저가 video 태그를 지원하지 않습니다.
-</video>
+![RushWash_preview](.github/assets/RushWash_demo.mp4)
 
 ---
 
