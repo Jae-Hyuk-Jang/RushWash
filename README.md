@@ -241,8 +241,3 @@ RushWash/
 | <img src="https://github.com/ghbtkk.png" width="100"/> | **김지현**<br/>Ji-Hyun Kim | 프론트엔드&nbsp;개발&nbsp;(FE) | React&nbsp;&#124;  TailwindCSS | [ghbtkk](https://github.com/ghbtkk) |
 
 
----
-
-## 📄 라이선스
-
-이 프로젝트는 [MIT License](./LICENSE)에 따라 배포됩니다.
